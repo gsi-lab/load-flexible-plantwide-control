@@ -1,0 +1,102 @@
+{
+  "test": "open-loop step tests and closed-loop setpoint steps",
+  "control_system": "basic",
+  "loads": [
+    "high",
+    "low"
+  ],
+  "openloop": {
+    "step_factor": {
+      "XC2.OP": {
+        "high": 1.05,
+        "low": 1.25
+      },
+      "XC1.OP": {
+        "high": 1.05,
+        "low": 1.25
+      }
+    },
+    "duration_s": 3610,
+    "sampling_interval_s": 1.0
+  },
+  "closedloop": {
+    "average": {
+      "loads": [
+        "high",
+        "low"
+      ],
+      "setpoint_step_factor": {
+        "XC2.SP": {
+          "high": 1.05,
+          "low": 0.95
+        },
+        "XC1.SP": {
+          "high": 1.05,
+          "low": 0.95
+        }
+      },
+      "tuning": {
+        "XC2": {
+          "Kc": 72.4,
+          "tau_I_s": 240
+        },
+        "XC1": {
+          "Kc": 83.0,
+          "tau_I_s": 240
+        }
+      },
+      "duration_s": 1210,
+      "sampling_interval_s": 1.0
+    },
+    "high": {
+      "loads": [
+        "high"
+      ],
+      "setpoint_step_factor": {
+        "XC2.SP": {
+          "high": 1.05
+        },
+        "XC1.SP": {
+          "high": 1.05
+        }
+      },
+      "tuning": {
+        "XC2": {
+          "Kc": 97.3,
+          "tau_I_s": 240
+        },
+        "XC1": {
+          "Kc": 92.3,
+          "tau_I_s": 240
+        }
+      },
+      "duration_s": 1210,
+      "sampling_interval_s": 1.0
+    },
+    "low": {
+      "loads": [
+        "low"
+      ],
+      "setpoint_step_factor": {
+        "XC2.SP": {
+          "low": 0.95
+        },
+        "XC1.SP": {
+          "low": 0.95
+        }
+      },
+      "tuning": {
+        "XC2": {
+          "Kc": 57.6,
+          "tau_I_s": 240
+        },
+        "XC1": {
+          "Kc": 75.5,
+          "tau_I_s": 240
+        }
+      },
+      "duration_s": 1210,
+      "sampling_interval_s": 1.0
+    }
+  }
+}

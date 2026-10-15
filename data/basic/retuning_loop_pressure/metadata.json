@@ -1,0 +1,21 @@
+{
+  "test": "open-loop step test for retuning",
+  "control_system": "basic",
+  "loads": [
+    "high",
+    "low"
+  ],
+  "openloop": {
+    "step_factor": {
+      "XC16.OP": {
+        "high": 0.98,
+        "low": 0.99
+      }
+    },
+    "duration_s": {
+      "high": 3610,
+      "low": 21610
+    },
+    "sampling_interval_s": 1.0
+  }
+}

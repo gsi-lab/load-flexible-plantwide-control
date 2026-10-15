@@ -1,0 +1,2 @@
+mv,cv,load,response_type,K_process,tau_process,tau_c,theta_process,Kc,Ti,controller,lambda,delta_mv,delta_cv
+XC18.OP,XC18.PV,high,integrating,0.0017042603749330416,7200.0,300,11.0,1.886703540665033,1244.0,PI,311.0,0.005002724037758921,0.24740438537297882

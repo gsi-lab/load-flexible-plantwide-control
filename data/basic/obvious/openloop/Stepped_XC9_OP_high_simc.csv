@@ -1,0 +1,2 @@
+mv,cv,load,response_type,K_process,tau_process,tau_c,theta_process,Kc,Ti,controller,lambda,delta_mv,delta_cv
+XC9.OP,XT21.W,high,simple,0.018560507488576797,7.953831352257588,20,0.0,21.42676151811267,7.953831352257588,PI,20.0,-0.009985991073289235,-0.18534506209664592

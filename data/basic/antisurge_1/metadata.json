@@ -1,0 +1,36 @@
+{
+  "test": "open-loop step tests and closed-loop setpoint steps",
+  "control_system": "basic",
+  "loads": [
+    "low"
+  ],
+  "openloop": {
+    "step_factor": {
+      "XC4.OP": {
+        "low": 0.95
+      }
+    },
+    "duration_s": 1810,
+    "sampling_interval_s": 1.0
+  },
+  "closedloop": {
+    "low": {
+      "loads": [
+        "low"
+      ],
+      "setpoint_step_factor": {
+        "XC4.SP": {
+          "low": 0.95
+        }
+      },
+      "tuning": {
+        "XC4": {
+          "Kc": 0.97,
+          "tau_I_s": 6.5
+        }
+      },
+      "duration_s": 3610,
+      "sampling_interval_s": 5.0
+    }
+  }
+}

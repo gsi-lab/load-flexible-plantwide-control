@@ -1,0 +1,77 @@
+{
+  "test": "ramp validation, 100-10-100-55 % load",
+  "control_system": "basic",
+  "start": "high load",
+  "ramped_variable": "XC12.SP",
+  "ramping_rate": "7.5 t/d/min of hydrogen (3 %/min of the nominal load)",
+  "hold_times_s": {
+    "start": 300,
+    "low": 1800,
+    "high": 1800,
+    "mid": 1800
+  },
+  "duration_s": 10200,
+  "sampling_interval_s": 1.0,
+  "tuning": {
+    "XC2": {
+      "Kc": 72.4,
+      "tau_I_s": 240
+    },
+    "XC1": {
+      "Kc": 83.0,
+      "tau_I_s": 240
+    },
+    "XC3": {
+      "Kc": 39.3,
+      "tau_I_s": 172
+    },
+    "XC9": {
+      "Kc": 31.5,
+      "tau_I_s": 6.7
+    },
+    "XC8": {
+      "Kc": 0.028,
+      "tau_I_s": 9.9
+    },
+    "XC13": {
+      "Kc": 23.9,
+      "tau_I_s": 360
+    },
+    "XC14": {
+      "Kc": 12.3,
+      "tau_I_s": 44
+    },
+    "XC15": {
+      "Kc": 133,
+      "tau_I_s": 40
+    },
+    "XC10": {
+      "Kc": 0.11,
+      "tau_I_s": 7
+    },
+    "XC11": {
+      "Kc": 1.15,
+      "tau_I_s": 82
+    },
+    "XC12": {
+      "Kc": 0.44,
+      "tau_I_s": 3.5
+    },
+    "XC16": {
+      "Kc": 1.5,
+      "tau_I_s": 266
+    },
+    "XC4": {
+      "Kc": 0.97,
+      "tau_I_s": 6.5
+    },
+    "XC5": {
+      "Kc": 1,
+      "tau_I_s": 5.6
+    },
+    "XC6": {
+      "Kc": 1.2,
+      "tau_I_s": 6.0
+    }
+  }
+}

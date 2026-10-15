@@ -1,0 +1,17 @@
+# Output of the example scripts
+results/
+
+# Python
+__pycache__/
+*.pyc
+
+# Plots written next to the results
+*.png
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Simulation models: not shared (simulator license)
+models/
+*.simx

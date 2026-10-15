@@ -1,0 +1,2 @@
+mv,cv,load,response_type,K_process,tau_process,tau_c,theta_process,Kc,Ti,controller,lambda,delta_mv,delta_cv
+XC1.OP,V2.Level,low,integrating,-0.00022081941203540607,3600.0,60,0.0,75.47645613690132,240.0,PI,60.0,0.017319363676883942,-0.01406105660227941

@@ -1,0 +1,20 @@
+folder,control_system,test,loads,csv_files,used_in
+basic/inventory,basic,open-loop step tests and closed-loop setpoint steps,high low,18,"Fig. 2, S1, S2; Tables 2, S2, S3"
+basic/obvious,basic,open-loop step tests and closed-loop setpoint steps,high low,32,"Fig. 3, S3, S4; Tables 2, S2, S3"
+basic/reactor,basic,open-loop step tests and closed-loop setpoint steps,high low,40,"Fig. 4, S5, S6; Eq. 7; Tables 2, S2, S3"
+basic/compression,basic,open-loop step tests and closed-loop setpoint steps,high low,42,"Fig. 5, S7, S8; Eq. 8; Tables 2, S2, S3, S4"
+basic/antisurge_1,basic,open-loop step tests and closed-loop setpoint steps,low,5,"Fig. 6, S9; Tables 2, S2, S3"
+basic/antisurge_2,basic,open-loop step tests and closed-loop setpoint steps,low,5,"Fig. 6, S9; Tables 2, S2, S3"
+basic/antisurge_3,basic,open-loop step tests and closed-loop setpoint steps,low,5,"Fig. 6, S9; Tables 2, S2, S3"
+basic/retuning_steam_temperature,basic,open-loop step test for retuning,high low,6,Table S5
+basic/retuning_loop_pressure,basic,open-loop step test for retuning,high low,6,Table S5
+basic/validation_loadstep/original_tuning,basic,load-step validation,high low,2,"Fig. S10, S11"
+basic/validation_loadstep/retuned_steam_temperature,basic,load-step validation,high low,2,Fig. S11
+basic/validation_loadstep/retuned_loop_pressure_1,basic,load-step validation,high low,2,Fig. S11
+basic/validation_loadstep/final_tuning,basic,load-step validation,high low,2,Fig. S11
+basic/validation_ramp,basic,"ramp validation, 100-10-100-55 % load",high,1,"Fig. 7, S17"
+advanced/steam_cascade_inner,advanced,open-loop step tests and closed-loop setpoint steps,high low,12,"Fig. 9, S12, S13; Tables 2, S2, S3"
+advanced/steam_cascade_outer,advanced,open-loop step tests and closed-loop setpoint steps,high low,12,"Fig. 9, S12, S13; Tables 2, S2, S3"
+advanced/ratio_cascade,advanced,open-loop step tests and closed-loop setpoint steps,high low,12,"Fig. S15; Tables 2, S2, S3"
+advanced/validation_loadstep,advanced,load-step validation,high low,2,Fig. S16
+advanced/validation_ramp,advanced,"ramp validation, 100-10-100-55 % load",high,1,"Fig. 10, S17"

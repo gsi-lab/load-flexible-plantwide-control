@@ -1,0 +1,78 @@
+{
+  "test": "load-step validation",
+  "control_system": "basic",
+  "loads": [
+    "high",
+    "low"
+  ],
+  "step_factor": {
+    "XC12.SP": {
+      "high": 0.9,
+      "low": 1.1
+    }
+  },
+  "duration_s": 910,
+  "sampling_interval_s": 5.0,
+  "tuning": {
+    "XC2": {
+      "Kc": 72.4,
+      "tau_I_s": 240
+    },
+    "XC1": {
+      "Kc": 83.0,
+      "tau_I_s": 240
+    },
+    "XC3": {
+      "Kc": 39.3,
+      "tau_I_s": 172
+    },
+    "XC9": {
+      "Kc": 31.5,
+      "tau_I_s": 6.7
+    },
+    "XC8": {
+      "Kc": 0.02,
+      "tau_I_s": 15.2
+    },
+    "XC13": {
+      "Kc": 23.9,
+      "tau_I_s": 360
+    },
+    "XC14": {
+      "Kc": 12.3,
+      "tau_I_s": 44
+    },
+    "XC15": {
+      "Kc": 133,
+      "tau_I_s": 40
+    },
+    "XC10": {
+      "Kc": 0.11,
+      "tau_I_s": 7
+    },
+    "XC11": {
+      "Kc": 1.15,
+      "tau_I_s": 82
+    },
+    "XC12": {
+      "Kc": 0.44,
+      "tau_I_s": 3.5
+    },
+    "XC16": {
+      "Kc": 0.97,
+      "tau_I_s": 418
+    },
+    "XC4": {
+      "Kc": 0.97,
+      "tau_I_s": 6.5
+    },
+    "XC5": {
+      "Kc": 1,
+      "tau_I_s": 5.6
+    },
+    "XC6": {
+      "Kc": 1.2,
+      "tau_I_s": 6.0
+    }
+  }
+}

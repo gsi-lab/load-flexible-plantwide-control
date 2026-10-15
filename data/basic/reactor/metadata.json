@@ -1,0 +1,164 @@
+{
+  "test": "open-loop step tests and closed-loop setpoint steps",
+  "control_system": "basic",
+  "loads": [
+    "high",
+    "low"
+  ],
+  "openloop": {
+    "step_factor": {
+      "XC13.OP": {
+        "high": 0.9,
+        "low": 0.9
+      },
+      "XC14.OP": {
+        "high": 0.9,
+        "low": 0.9
+      },
+      "XC15.OP": {
+        "high": 0.9,
+        "low": 0.9
+      }
+    },
+    "duration_s": 7210,
+    "sampling_interval_s": 1.0
+  },
+  "closedloop": {
+    "average": {
+      "loads": [
+        "high",
+        "low"
+      ],
+      "setpoint_step_factor": {
+        "XC13.SP": {
+          "high": 1.01,
+          "low": 1.01
+        },
+        "XC14.SP": {
+          "high": 1.01,
+          "low": 1.01
+        },
+        "XC15.SP": {
+          "high": 1.01,
+          "low": 1.01
+        }
+      },
+      "tuning": {
+        "XC13": {
+          "Kc": 19.5,
+          "tau_I_s": 272
+        },
+        "XC14": {
+          "Kc": 2.0,
+          "tau_I_s": 44
+        },
+        "XC15": {
+          "Kc": 21.6,
+          "tau_I_s": 40
+        }
+      },
+      "duration_s": 1810,
+      "sampling_interval_s": 10.0
+    },
+    "best": {
+      "loads": [
+        "high",
+        "low"
+      ],
+      "setpoint_step_factor": {
+        "XC13.SP": {
+          "high": 1.01,
+          "low": 1.01
+        },
+        "XC14.SP": {
+          "high": 1.01,
+          "low": 1.01
+        },
+        "XC15.SP": {
+          "high": 1.01,
+          "low": 1.01
+        }
+      },
+      "tuning": {
+        "XC13": {
+          "Kc": 23.9,
+          "tau_I_s": 360
+        },
+        "XC14": {
+          "Kc": 12.3,
+          "tau_I_s": 44
+        },
+        "XC15": {
+          "Kc": 133,
+          "tau_I_s": 40
+        }
+      },
+      "duration_s": 1810,
+      "sampling_interval_s": 10.0
+    },
+    "high": {
+      "loads": [
+        "high"
+      ],
+      "setpoint_step_factor": {
+        "XC13.SP": {
+          "high": 1.01
+        },
+        "XC14.SP": {
+          "high": 1.01
+        },
+        "XC15.SP": {
+          "high": 1.01
+        }
+      },
+      "tuning": {
+        "XC13": {
+          "Kc": 17,
+          "tau_I_s": 184
+        },
+        "XC14": {
+          "Kc": 0.28,
+          "tau_I_s": 11.8
+        },
+        "XC15": {
+          "Kc": 15.7,
+          "tau_I_s": 40
+        }
+      },
+      "duration_s": 1810,
+      "sampling_interval_s": 10.0
+    },
+    "low": {
+      "loads": [
+        "low"
+      ],
+      "setpoint_step_factor": {
+        "XC13.SP": {
+          "low": 1.01
+        },
+        "XC14.SP": {
+          "low": 1.01
+        },
+        "XC15.SP": {
+          "low": 1.01
+        }
+      },
+      "tuning": {
+        "XC13": {
+          "Kc": 23.9,
+          "tau_I_s": 360
+        },
+        "XC14": {
+          "Kc": 12.3,
+          "tau_I_s": 44
+        },
+        "XC15": {
+          "Kc": 133,
+          "tau_I_s": 40
+        }
+      },
+      "duration_s": 1810,
+      "sampling_interval_s": 10.0
+    }
+  }
+}
