@@ -4,7 +4,7 @@ Supporting material for
 
 N. Groll, J.K. Huusom, G. Sin, "Plantwide Control Design for Highly Load-Flexible Power-to-X Processes: A Systematic Procedure Applied to Renewable Ammonia Production", manuscript submitted to *Computers & Chemical Engineering*.
 
-Archived version of this repository: https://doi.org/10.5281/zenodo.XXXXXXX
+Archived version of this repository: https://doi.org/10.5281/zenodo.23388386
 
 If you use the data or code, please cite the paper and the archived version.
 
