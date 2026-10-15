@@ -1,0 +1,29 @@
+{
+  "title": "Data and code for: Plantwide Control Design for Highly Load-Flexible Power-to-X Processes – A Systematic Procedure Applied to Renewable Ammonia Production",
+  "upload_type": "software",
+  "description": "<p>Data and code for the manuscript \"Plantwide Control Design for Highly Load-Flexible Power-to-X Processes: A Systematic Procedure Applied to Renewable Ammonia Production\" (N. Groll, J.K. Huusom, G. Sin), submitted to Computers &amp; Chemical Engineering.</p><p>The repository contains the open-loop and closed-loop responses of all control loops, with the identified process parameters, gain matrices, RGAs, aggregated RGA, Niederlinski index and SIMC tunings behind the figures and tables of the paper; the load-step and ramp validation tests of the basic and the advanced control system; and the Python code for the step tests, the identification and tuning, and the pairing analysis, with example scripts.</p><p>The dynamic simulation models (AVEVA Process Simulation) are not included, as the software license does not allow us to redistribute them. Researchers with a valid license can contact the corresponding author.</p>",
+  "creators": [
+    {
+      "name": "Groll, Niklas",
+      "affiliation": "Process and System Engineering Center (PROSYS), Department of Chemical and Biochemical Engineering, Technical University of Denmark (DTU), 2800, Kgs. Lyngby/Denmark",
+      "orcid": "0000-0003-0493-2270"
+    },
+    {
+      "name": "Huusom, Jakob K.",
+      "affiliation": "Process and System Engineering Center (PROSYS), Department of Chemical and Biochemical Engineering, Technical University of Denmark (DTU), 2800, Kgs. Lyngby/Denmark",
+      "orcid": "0000-0003-0513-4502"
+    },
+    {
+      "name": "Sin, Gürkan",
+      "affiliation": "Process and System Engineering Center (PROSYS), Department of Chemical and Biochemical Engineering, Technical University of Denmark (DTU), 2800, Kgs. Lyngby/Denmark",
+      "orcid": "0000-0002-1367-7235"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Plantwide Control",
+    "Process Simulation",
+    "Power-to-Ammonia"
+  ],
+  "language": "eng"
+}
